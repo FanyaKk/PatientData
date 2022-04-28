@@ -1,7 +1,7 @@
 body{
     display: flex;
     flex-direction: column;
-    align-items:center;
+    align-items:left;
 }
 table{
     width: 900px;
@@ -31,3 +31,5 @@ th, td{
 infographic-point{
     color: black;
 }
+
+

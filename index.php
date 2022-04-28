@@ -7,6 +7,7 @@
 
 		<!-- css -->
 		<link rel="stylesheet" href="style.css">
+		<link rel="stylesheet" href="buttonstyle.css">
 
 		<title>Emergency calls</title>
 	</head>
@@ -81,7 +82,13 @@
 				}
 ?>
 			</table>
-		</div>
+				<div class="container">
+					<div class="highlight"></div>					
+						<span>
+							<a href="#" class="button grad transition">PANIC BUTTON!</a>
+						</span>		
+				</div>		
+			</div>
 		<div class="chart-container">        
 <?php
 			include 'newchart.php';
