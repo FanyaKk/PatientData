@@ -12,8 +12,12 @@ th, td{
     border-bottom: 1px solid black;
     border-right: 1px solid black;
 }
+.form-container {
+    padding-bottom: 20px;
+}
 #programmatic_chart_div{
     height: 600px;
+    width: 1200px;
 }
 #programmatic_control_div{
     padding-top: 15px;
