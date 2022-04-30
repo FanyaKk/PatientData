@@ -12,8 +12,15 @@
   }
   else
   {
-    $dateFrom = date('Y, m, d, H, i, s', strtotime($onedayback . '-1 month'));
-    $dateTo = date('Y, m, d', strtotime($time . ' +1 day'. '-1 month'));
+    if(empty($firstrecord)) {
+      $dateFrom = date('Y, m, d, H, i, s', strtotime($onedayback . '-1 month'));
+      $dateTo = date('Y, m, d', strtotime($time . ' +1 day'. '-1 month'));
+    }
+    else{
+      $dateFrom = date('Y, m, d, H, i, s', strtotime($time . '-1 month'));
+      $dateTo = date('Y, m, d', strtotime($time . ' +1 day'. '-1 month'));
+    }
+    
   }
 ?>
 <html>

@@ -18,9 +18,11 @@
 		
 ?>
   <div class="person-data">
+		<a href="#" class="button grad transition">PANIC BUTTON!</a>
+
 		<table>
 			<h1>Patient data</h1>
-				<tr>
+			<tr>
 					<th>Date</th>
 					<th>Pulse</th>
 					<th>Oxygen</th>
@@ -82,12 +84,7 @@
 				}
 ?>
 			</table>
-				<div class="container">
-					<div class="highlight"></div>					
-						<span>
-							<a href="#" class="button grad transition">PANIC BUTTON!</a>
-						</span>		
-				</div>		
+						
 			</div>
 		<div class="chart-container">        
 <?php
